@@ -1,7 +1,7 @@
 function upperCase(string){
     let array = [];
     let currenWord = ""
-    let map = [",",".","!","?"," ","_", "-","\""]
+    let map = [",","!","?"," ",'.',"-","_","\"",")","(",']','[',"{",'}',"|","/", "'",'`']
     for(const el of string){
         if(map.includes(el)){
             if(currenWord !== ""){
