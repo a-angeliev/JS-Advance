@@ -1,5 +1,4 @@
 function sameNumbers(nums){
-    let numbers = [];
     let sameFlag = true;
     let lastElement = String(nums).slice(-1);
     let sum = 0;
@@ -7,7 +6,6 @@ function sameNumbers(nums){
         if(number != lastElement){
             sameFlag = false;
         }
-        numbers.push(number);
         sum += Number(number);
     }
     

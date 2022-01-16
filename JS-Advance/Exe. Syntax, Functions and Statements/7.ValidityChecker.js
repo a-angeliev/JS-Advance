@@ -15,9 +15,9 @@ function Checker(x1, y1, x2, y2){
 
     result = Math.sqrt(Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2))
     if(Number.isInteger(result)){
-        console.log(`{${x1}, ${x2}} to {${x2}, ${y2}} is valid`);
+        console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is valid`);
     }else{
-        console.log(`{${x1}, ${x2}} to {${x2}, ${y2}} is invalid`);
+        console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is invalid`);
     }
     
 }

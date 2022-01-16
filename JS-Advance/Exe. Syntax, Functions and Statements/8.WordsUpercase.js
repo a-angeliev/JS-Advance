@@ -16,4 +16,5 @@ function upperCase(string){
     }
         console.log(array.join(", ").toUpperCase())
 }
-upperCase("Functions in JS can be nested, i.e. hold other functions")
+upperCase('        Functions -     in JS can be " nested, i.e. hold other functions           ')
+upperCase('Hi, how are you?')
