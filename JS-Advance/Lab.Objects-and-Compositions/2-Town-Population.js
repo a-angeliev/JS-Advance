@@ -1,3 +1,4 @@
+
 function solve(arr){
     let towns = {}
     for (const townInfo of arr) {
@@ -14,7 +15,6 @@ function solve(arr){
        
     }
 }
-
 solve(['Istanbul <-> 100000',
     'Honk Kong <-> 2100004',
     'Jerusalem <-> 2352344',

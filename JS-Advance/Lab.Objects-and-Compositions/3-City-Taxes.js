@@ -18,4 +18,8 @@ function solve(name, population, treasury){
 
     }
     return result
+
+
 }
+
+console.log(solve());
