@@ -12,7 +12,7 @@ function solve() {
         }else return false
     }
 
-
+    
 
     buttonCleareElement.addEventListener("click", function (e) {
         let ulArchiveElement = Array.from(document.querySelectorAll("#archive ul li"))
@@ -77,8 +77,6 @@ function solve() {
                     })
                 }
             })
-        
-        }
-        
+        } 
     })
 }
