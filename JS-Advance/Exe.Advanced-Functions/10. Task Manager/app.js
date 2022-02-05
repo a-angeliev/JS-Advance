@@ -30,10 +30,10 @@ function solve() {
             createH3Element.textContent = task
 
             let createpDiscriptionElement = document.createElement("p")
-            createpDiscriptionElement.textContent = discription
+            createpDiscriptionElement.textContent = `Description: ${discription}`
 
             let createpDateElement = document.createElement("p")
-            createpDateElement.textContent = date
+            createpDateElement.textContent = `Due Date: ${date}`
 
             let createArctElement = document.createElement("article")
             createArctElement.appendChild(createH3Element)
@@ -58,16 +58,11 @@ function solve() {
 
                 createFinishButton.addEventListener("click", function(){
                     completeDivElement.appendChild(createArctElement)
-                    createFinishButton.remove()
-                    createDeleteButton.remove()
+                    createDivElement.remove()
+                    // createFinishButton.remove()
+                    // createDeleteButton.remove()
                 })
             })
-
-            
-
         }
     })
-    
-
-
 }
